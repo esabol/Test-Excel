@@ -125,7 +125,7 @@ sub cmp_excel_not_ok {
 
 Same as C<cmp_excel_ok()> but ideal for non TEST MODE.
 This function will tell you whether the two Excel files are "visually" different,
-ignoring differences  in  embedded  fonts / images and metadata.Both C<$got> and
+ignoring differences  in  embedded  fonts / images and metadata. Both C<$got> and
 C<$exp>  can be either instance of L<Spreadsheet::Read> / file path (which is in
 turn passed to the L<Spreadsheet::Read> constructor).
 
